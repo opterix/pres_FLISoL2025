@@ -1,0 +1,24 @@
+---
+title: "Cómo conectar nuestra página a Netlify"
+format: html
+theme: cosmo
+---
+
+<div style="text-align: center;">
+  <h1>¡Crea tu propia página web con Quarto y súbela a Netlify!</h1>
+  <p>En este mini-tutorial, aprenderás a crear tu propia página web y llevarla a la nube con Netlify.</p>
+  <p>¡Es más fácil de lo que parece! Sigue los pasos y tendrás tu sitio en línea en minutos.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/2560px-Netlify_logo.svg.png" alt="Logo de Netlify" style="width: 200px; margin-top: 20px;"/>
+</div>
+
+<hr>
+
+<h3>Pasos para crear tu página</h3>
+<ul>
+  <li>Revisa la sección llamada "Tutorial Web"</li>
+  <li>Revisa la sección llamada "Tutorial Netlify"</li>
+</ul>
+
+<hr>
+
+<p style="text-align: center; font-size: 0.9em;">Este tutorial te guiará paso a paso para tener tu página online usando Quarto y Netlify.</p>

@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 2469cff4-8736-4f2b-bc32-0cb87f4091e4
+      url: 'https://friendly-pony-b93485.netlify.app'

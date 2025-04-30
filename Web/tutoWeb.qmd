@@ -1,0 +1,64 @@
+---
+title: "Tutorial Web: Creación y Configuración"
+format: html
+theme: cosmo
+---
+
+# Cómo crear tu página web en Quarto y agregar nuevas secciones
+
+En este tutorial, aprenderemos paso a paso cómo crear una página web con Quarto y agregar nuevas secciones para facilitar la navegación en tu sitio.
+
+¡Sigue estos pasos y tendrás tu página web organizada y lista para compartir!
+
+---
+
+## Pasos para crear tu página web
+
+1. **Abre RStudio**
+
+   En primer lugar, abre RStudio y crea un nuevo proyecto.
+
+   - Haz clic en **Archivo** → **Nuevo Proyecto**.
+   - Selecciona **Elije entre un directorio nuevo o ya existente** → **Quarto Website** → **Crea tu proyecto**.
+
+2. **Crea tu página principal**
+
+   Quarto creará el archivo de la página principal para tu página web. Este archivo se llama normalmente `index.qmd`. Este archivo será la página de inicio de tu sitio web.
+
+   - Agrega el contenido que desees mostrar en la página principal, como texto, imágenes o enlaces.
+
+3. **Agrega nuevas secciones**
+
+   Para agregar nuevas páginas o secciones, crea archivos `.qmd` adicionales para cada una. Por ejemplo, puedes crear un archivo `about.qmd` para una página "Acerca de" y `tutoWeb.qmd` para una sección de tutoriales.
+
+   - Para crear un nuevo archivo, ve a **Archivo** → **Nuevo Archivo** → **Archivo Quarto**.
+   - Nómbralo adecuadamente según la sección que deseas agregar, como `tutoWeb.qmd` para tutoriales.
+
+4. **Configura la navegación en el archivo `_quarto.yml`**
+
+   Para que las nuevas páginas sean fácilmente accesibles, debes agregarlas al archivo de configuración `_quarto.yml` en la sección de navegación.
+
+   - En la sección **navbar**, agrega un nuevo enlace para cada archivo `.qmd` que hayas creado. Por ejemplo, para `tutoWeb.qmd`, el enlace será:
+
+     ```yaml
+     navbar:
+       left:
+         - href: index.qmd
+           text: Home
+         - href: about.qmd
+           text: About
+         - href: tutoWeb.qmd
+           text: Tutorial Web
+     ```
+
+5. **Genera tu sitio web**
+
+   Una vez que hayas configurado todos los archivos y añadido las nuevas secciones en `_quarto.yml`, puedes generar tu sitio web usando:
+
+   - Haz clic en el botón **Render** en RStudio.
+   - Revisa el archivo `_site` generado para ver cómo se ve tu página.
+
+---
+
+¡Y eso es todo! Ahora tienes tu página web organizada con Quarto. Añadir nuevas secciones es fácil y rápido.
+

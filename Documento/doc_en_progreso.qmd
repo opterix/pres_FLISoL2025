@@ -1,0 +1,76 @@
+---
+title: 
+subtitle: 
+author: 
+format: html
+engine: knitr
+jupyter: python3
+---
+<!-- Agrega una lista de secciones: introducción, estado del arte, método y resultados -->
+
+<!-- Agrega también subsecciones en donde consideres oportuno -->
+
+
+<!-- Haz uso de ecuaciones en Latex. Por ejemplo agrega la función de la normal estandar-->
+<!-- Escribe tu propio ejemplo de ecuación -->
+
+
+<!-- Ahora intenta escribiendo código en Python y genera una gráfica sencilla -->
+
+```{python}
+#| echo: true
+#| fig-cap: "Ponle un título a tu gráfica"
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define tus datos aquí
+x = # valores de x
+y = # valores de y
+# Crear la figura
+plt.figure(figsize=(8, 5))
+plt.plot(x, y, label="Tu función")  # Graficar y en función de x
+
+# Personalizar la gráfica
+plt.title("Título de tu gráfica")    # Cambia el título
+plt.xlabel("Eje X")
+plt.ylabel("Eje Y")
+plt.grid(True)
+plt.legend()
+
+# Mostrar la gráfica
+plt.show()
+```
+
+<!-- Crea tu propia tabla -->
+
+
+| Col1                     | Col2           | Col3                                          |
+|--------------------------|----------------|-----------------------------------------------|
+| 1                        | a              | a1                                            |
+| 2                        | b              | b2                                            |
+| 3                        | c              | c3                                            |
+| 4                        | d              | d4                                            |
+| 5                        | e              | e5                                            |
+
+<!-- Ahora intenta escribiendo código en R y genera una gráfica sencilla -->
+
+```{R}
+#| echo: true
+#| fig-cap: "Ponle un título a tu gráfica"
+library(ggplot2)
+
+# Define tus datos aquí
+x <-  # valores de x
+y <-  # valores de y
+
+df <- data.frame(x = x, y = y)
+
+ggplot(df, aes(x = x, y = y)) +
+  geom_line(color = "blue", size = 1) +
+  labs(title = "Título de tu gráfica",
+       x = "Eje X",
+       y = "Eje Y") +
+  theme_minimal()
+
+```
+

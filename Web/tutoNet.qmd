@@ -1,0 +1,46 @@
+---
+title: "Tutorial Netlify: Publicar tu página web"
+format: html
+theme: cosmo
+---
+
+# Cómo publicar tu página web con Netlify
+
+En este tutorial, aprenderemos cómo crear una cuenta en Netlify, conectar tu proyecto de Quarto y desplegar tu página web usando el comando `quarto publish netlify`.
+
+¡Vamos a hacerlo paso a paso!
+
+---
+
+## Pasos para publicar tu página web en Netlify
+
+1. **Crear una cuenta en Netlify**
+
+   Para comenzar, necesitas tener una cuenta en Netlify. Si aún no tienes una, sigue estos pasos:
+
+   - Ve a [www.netlify.com](https://www.netlify.com).
+   - Haz clic en **Sign Up** en la esquina superior derecha.
+   - Elige registrarte usando tu cuenta de GitHub, GitLab o Bitbucket. Si prefieres, también puedes usar tu correo electrónico.
+
+2. **Publicar el sitio web con Quarto**
+
+   Ahora que tienes tu cuenta de Netlify configurada y tu proyecto de Quarto listo, vamos a publicar tu sitio web. Usamos el siguiente comando:
+
+   - Ejecuta el siguiente comando en la terminal para publicar tu sitio:
+
+     ```bash
+     quarto publish netlify
+     ```
+
+   - Este comando automáticamente construirá tu sitio y lo desplegará en Netlify.
+   - Una vez completado, verás un enlace en la terminal que te llevará a tu sitio publicado.
+
+3. **Verifica tu sitio en línea**
+
+   Ahora puedes ir a la URL proporcionada para ver tu página web en vivo. ¡Felicidades! Tu sitio ya está en línea gracias a Netlify.
+
+   - Si deseas personalizar el dominio de tu sitio, puedes hacerlo directamente desde el panel de administración de Netlify.
+
+---
+
+¡Listo! Ahora sabes cómo publicar tu página web usando Netlify y el comando `quarto publish netlify`.
